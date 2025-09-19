@@ -1,0 +1,21 @@
+{
+  "name": "acquisitions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panindrakumar84/acquisitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panindrakumar84/acquisitions/issues"
+  },
+  "homepage": "https://github.com/panindrakumar84/acquisitions#readme",
+  "description": ""
+}
