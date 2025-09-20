@@ -2,9 +2,10 @@
   "name": "acquisitions",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node test.js",
-    "run": "node index.js"
+    "dev": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
     "url": "https://github.com/panindrakumar84/acquisitions/issues"
   },
   "homepage": "https://github.com/panindrakumar84/acquisitions#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
 }
